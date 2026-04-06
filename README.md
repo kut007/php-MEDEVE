@@ -28,10 +28,14 @@ Aula 5 Exercicio 1:
 
  O perfil de usuario vai mostrar para o servidor oque ele pode acessar oque ele pode ver e quais açoes ele pode executar ou nao executar
 
- Aula 5 Exercicio 2:
+Aula 5 Exercicio 2:
 
 Controle visual:
 Mostra e esconde menus e deixa o sistema mais organizado
 
 controle logico:
 Impede acesso direto a paginas internas
+
+Aula 6 Exercicio 1: 
+
+E um framework utilizado no front-end que facilita e ajuda a criar a parte visual do sistema

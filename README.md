@@ -16,10 +16,22 @@ pages:
 
 Telas internas como tela inicial apos o login
 
-Aula 4 Exericio 1:
+Aula 4 Exercicio 1:
 
 sessao e como uma forma para o servidor saber quem e o usuario, sem sessao a pagina esquece o usuario, ja com sessao o sistema sabe quem esta logado e lembra dessa pessoa e deixa o acesso mais controlado.
 
-Aula 4 Exericio 2:
+Aula 4 Exercicio 2:
 
 A pessoa recebera uma tela de erro ou sera redirecionada para outra pagina como o login.
+
+Aula 5 Exercicio 1:
+
+ O perfil de usuario vai mostrar para o servidor oque ele pode acessar oque ele pode ver e quais açoes ele pode executar ou nao executar
+
+ Aula 5 Exercicio 2:
+
+Controle visual:
+Mostra e esconde menus e deixa o sistema mais organizado
+
+controle logico:
+Impede acesso direto a paginas internas

@@ -1,13 +1,13 @@
 <?php
-$Usuarios = [
+$usuarios = [
     [
     "usuario" => "herbao",
-    "perfil" => "Ronaldo",
+    "perfil" => "cliente",
     "senha" => "1234"
   ],
   [
     "usuario" => "willian",
-    "perfil" => "Dj willan",
+    "perfil" => "empresa",
     "senha" => "kuty"
   ]
 ];

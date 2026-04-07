@@ -16,6 +16,10 @@ pages:
 
 Telas internas como tela inicial apos o login
 
+-------------------------------------------------------
+tudo da aula 3, aula 4 e aula 5 e o cadastraralunos
+-------------------------------------------------------
+
 Aula 4 Exercicio 1:
 
 sessao e como uma forma para o servidor saber quem e o usuario, sem sessao a pagina esquece o usuario, ja com sessao o sistema sabe quem esta logado e lembra dessa pessoa e deixa o acesso mais controlado.

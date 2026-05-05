@@ -4,7 +4,7 @@ USE medeve;
 CREATE TABLE usuario (
     id_usuario INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(255) NOT NULL,
-    perfil VARCHAR(255) NOT NULL,
+    perfil VARCHAR(120) NOT NULL DEFAULT 'cliente',
     senha VARCHAR(255) NOT NULL
 );
 

@@ -6,15 +6,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $nome = $_POST['nome'] ?? '';
     $senha = $_POST['senha'] ?? '';
 
-    cadastro_usuario($nome, $senha);
-    echo "salvo!";
-    
+    login_usuario($nome, $senha);
+    echo "logado!";
 }
 
 ?>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<h2>CADASTRO MEDEVE!!!!!!!</h2>
+<h2>LOGIN MEDEVE!!!!!!!</h2>
 
 <form method="POST">
   <div class="form-group row">
@@ -32,7 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   </div>
 
   <div class="mt-3">
-    <button type="submit" class="btn btn-primary">Cadastrar</button>
+    <button type="submit" class="btn btn-primary">Logar</button>
   </div>
 </form>
 

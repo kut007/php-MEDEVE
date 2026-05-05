@@ -6,7 +6,7 @@ function listar_usuarios() : array
    $sql = "SELECT * FROM usuario ORDER BY id_usuario DESC";
 return db()->query($sql)->fetchAll();
 }
-function login_usuario(string $nome, string $perfil, string $senha ) : array
+function login_usuario(string $nome, string $senha ) : array
 {
     $sql = "SELECT nome, perfil, senha FROM usuario WHERE nome = ?";
     $stmt = db()->prepare($sql);
@@ -14,7 +14,7 @@ function login_usuario(string $nome, string $perfil, string $senha ) : array
     $usuario = $stmt->fetch();
     return $usuario ?: [];
 }
-function cadastro_usuario(string $nome, string $senha, ?string $perfil) : int
+function cadastro_usuario(string $nome, string $senha) : int
 {
     $sql = "INSERT INTO usuario (nome, senha) VALUES (?,?)";
     $stmt = db()->prepare($sql);
@@ -22,7 +22,7 @@ function cadastro_usuario(string $nome, string $senha, ?string $perfil) : int
     return (int) db()->lastInsertId();
 }
 
-function criar_conta(int $id_usuario, string $descricao, string $tipo, float $valor): int
+function criar_conta(int $id_usuario, ?string $descricao, string $tipo, float $valor): int
 {
     $sql = "INSERT INTO contas (id_usuario, tipo, descricao, valor) VALUES (?,?,?,?)";
     $stmt = db()->prepare($sql);
